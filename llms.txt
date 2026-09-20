@@ -1,0 +1,25 @@
+# Clean Webpage Reader
+
+Paid x402 API for AI agents.
+Returns clean main text and Markdown from a URL.
+
+Base URL: https://clean-webpage-reader-production.up.railway.app
+
+## Endpoints
+- GET /health
+  Free. Service status.
+
+- GET /read?url={https_url}
+  Paid. Extract clean text + markdown from a public webpage.
+
+## Payment
+Protocol: x402
+Scheme: exact
+Network: eip155:8453 (Base mainnet)
+Price: $0.01 USDC per call
+Pay to: 0x3FfCEdBE43De60Dcc58ebF5c737F5c47e8De59FD
+
+If HTTP 402, read the payment-required header, pay, retry the same request.
+
+## Example
+GET https://clean-webpage-reader-production.up.railway.app/read?url=https://example.com
