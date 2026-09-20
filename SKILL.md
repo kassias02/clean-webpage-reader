@@ -5,7 +5,7 @@ description: Fetch a URL and return clean main text plus Markdown. Use when an a
 
 # Clean Webpage Reader
 
-Base URL: https://import-raleigh-grad-colony.trycloudflare.com
+Base URL: https://clean-webpage-reader-production.up.railway.app
 
 ## When to use
 Use this when you need the main content of a public webpage as clean text or Markdown.
