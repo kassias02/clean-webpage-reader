@@ -18,6 +18,7 @@ GET /health
 
 ## Payment
 x402 exact scheme.
-Network: eip155:84532 (Base Sepolia testnet)
-Price: $0.01
+Network: eip155:8453 (Base mainnet)
+Price: $0.01 USDC
+Pay to: 0x3FfCEdBE43De60Dcc58ebF5c737F5c47e8De59FD
 If the response is HTTP 402, pay using the payment-required header and retry.
