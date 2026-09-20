@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+trafilatura
+httpx
+python-dotenv
+x402[fastapi,evm]
